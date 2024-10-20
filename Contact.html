@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Contact Me</title> <!-- Title of the Contact Me page -->
+</head>
+<body>
+
+    <header>
+        <nav> <!-- Navigation menu -->
+            <ul> <!-- Unordered list -->
+                <li><a href="index.html" target="_blank">Home</a></li> <!-- Link to Home page -->
+                <li><a href="about.html" target="_blank">About Me</a></li> <!-- Link to About Me page -->
+                <li><a href="projects.html" target="_blank">My Projects</a></li> <!-- Link to Projects page -->
+                <li><a href="contact.html" target="_blank">Contact Me</a></li> <!-- Link to Contact Me page -->
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Contact Me</h1> <!-- Main heading for the Contact Me page -->
+
+    <section>
+        <h2>Get in Touch</h2> <!-- Section heading -->
+        <p>If you have any questions or would like to connect, feel free to reach out through the form below!</p> <!-- Introduction paragraph -->
+
+        <form action="mailto:yashp15361085@gmail.com" method="post" enctype="text/plain"> <!-- Form for contact -->
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br> <!-- Name input -->
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br> <!-- Email input -->
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br> <!-- Message -->
+
+            <fieldset>
+                <legend>Optional</legend> <!-- Legend for Optional fieldset -->
+
+                <label>Reason for Contacting me:</label><br>
+                <input type="checkbox" id="portfolio" name="interests" value="Portfolio Website"> <!-- Checkbox for Portfolio -->
+                <label for="portfolio">Regarding my portfolio</label><br>
+                <input type="checkbox" id="designing" name="interests" value="Designing work"> <!-- Checkbox for UI/UX -->
+                <label for="designing">UI/UX work</label><br>
+                <input type="checkbox" id="other" name="interests" value="Other"> <!-- Checkbox for other -->
+                <label for="other">Other</label><br><br>
+            </fieldset>
+
+            <input type="submit" value="Send Message"> <!-- Submit button -->
+        </form>
+    </section>
+
+    <section>
+        <h2>Other Ways to Reach Me</h2> <!-- Section heading -->
+        <p>You can also connect with me through these platforms:</p>
+        
+        <!-- Table for contact info -->
+        <table border="2"> <!-- Adding a border -->
+            <tr> <!-- Table rows -->
+                <th>Platform</th> <!-- Table header -->
+                <th>Contact Info</th> <!-- Table header -->
+            </tr>
+            <tr> <!-- Table rows -->
+                <td>Email</td> <!-- Table cells -->
+                <td><a href="mailto:yashp663322@gmail.com">yashp663322@gmail.com</a></td> <!-- Email link -->
+            </tr>
+            <tr> <!-- Table rows -->
+                <td>LinkedIn</td> <!-- Table cells -->
+                <td><a href="https://www.linkedin.com/feed" target="_blank">LinkedIn</a></td> <!-- i have not setted my profile yet so i just pasted the feed redirect link -->
+            </tr>
+            <tr> <!-- Table rows -->
+                <td>GitHub</td> <!-- Table cells -->
+                <td><a href="https://github.com/YashPatel1085" target="_blank">YashPatel1085</a></td> <!-- GitHub link -->
+            </tr>
+        </table>
+
+    </section>
+
+
+</body>
+</html>
